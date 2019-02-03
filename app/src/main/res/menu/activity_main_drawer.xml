@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/gettingstarted"
+            android:icon="@drawable/ic_play_arrow_black_24dp"
+            android:title="@string/getting_started" />
+        <item
+            android:id="@+id/nav_deshboard"
+            android:icon="@drawable/dashboard"
+            android:title="@string/nav_deshboard" />
+        <item
+            android:id="@+id/nav_bills"
+            android:icon="@drawable/bills"
+            android:title="@string/bills" />
+
+        <item
+            android:id="@+id/nav_emergency"
+            android:icon="@drawable/emergency"
+            android:title="@string/emergency" />
+
+        <item
+            android:id="@+id/nav_balancesheet"
+            android:icon="@drawable/balancesheet"
+            android:title="@string/balancesheet" />
+        <item
+            android:id="@+id/nav_members"
+            android:icon="@drawable/members"
+            android:title="@string/members" />
+        <item
+            android:id="@+id/nav_building"
+            android:icon="@drawable/building"
+            android:title="@string/building" />
+        <item
+            android:id="@+id/nav_vehicles"
+            android:icon="@drawable/vehicle"
+            android:title="@string/vehicle" />
+
+        <item
+            android:id="@+id/nav_wings"
+            android:icon="@drawable/building"
+            android:title="@string/wings" />
+        <item
+            android:id="@+id/nav_permission"
+            android:icon="@drawable/permission"
+            android:title="@string/permission" />
+
+        <item
+            android:id="@+id/nav_complains"
+            android:icon="@drawable/message"
+            android:title="@string/complains" />
+        <item
+            android:id="@+id/nav_rules"
+            android:icon="@drawable/rules"
+            android:title="@string/rules" />
+        <item
+            android:id="@+id/nav_buildingdetails"
+            android:icon="@drawable/building"
+            android:title="@string/buil_detail" />
+
+        <item
+            android:id="@+id/nav_statistics"
+            android:icon="@drawable/ic_trending_up_black_24dp"
+            android:title="@string/statistics" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/person"
+            android:title="@string/profile" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notifications"
+            android:title="@string/notification" />
+        <item
+            android:id="@+id/nav_changee_pass"
+            android:icon="@drawable/permission"
+            android:title="@string/change_password" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/message"
+            android:title="@string/contactus" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/privacy_policy" />
+        </menu>
+    </item>
+
+</menu>
